@@ -36,7 +36,7 @@
 
                 <form method="POST" action="{{ route('login') }}" id="formingreso">
                     @csrf 
-                    <input type="text" name="email" placeholder="Correo electrónico" required>
+                    <input type="text" name="ci" placeholder="Carnet de Identidad" required>
                     <input type="password" name="password" placeholder="Contraseña" required>
                     <button type="submit" name="btnEntrar">Entrar</button>
                     <button type="button" onclick="javascript:CerrarVentaLogin();">Cancelar</button>
@@ -49,7 +49,8 @@
             </div>
         </div>
 
-        @include("partials.header")
+        @include("partials.header") utilizando esto en el otro 
+        </div>
 
         <br>
         <hr>
@@ -67,7 +68,7 @@
 
         @yield("contend")
 
-        @include("partials.footer")
+        @include("partials.footer") utilizando esto en el otro 
     </div>
 </body>
 </html>

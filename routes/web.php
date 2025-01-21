@@ -8,16 +8,7 @@ use App\Http\Controllers\Auth\RegisteredUserController;
 use App\Http\Controllers\Auth\PasswordResetLinkController;
 use App\Http\Controllers\Auth\NewPasswordController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Aquí puedes registrar las rutas web de tu aplicación. Estas rutas son
-| cargadas por el RouteServiceProvider y todas se asignarán al grupo de
-| middleware "web". ¡Haz algo increíble!
-|
-*/
+
 
 // Rutas de navegación principales
 Route::get('/', [navegacionController::class, 'vinicio'])->name('vinicio');
